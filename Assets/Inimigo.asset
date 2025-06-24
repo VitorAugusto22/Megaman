@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Inimigo
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"TiroInimigo","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TiroInimigo2","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":232.7663,"y":-123.9708},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-208.0,"y":-205.0},"guid":"d9af4b5d-d468-4d8e-95b4-702c2b5c2a99","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-31.0,"y":-251.0},"guid":"5b62bb27-cb3e-4157-a3ed-27d24d67dc5c","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter2D","$id":"13"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Projetil","$type":"System.String"}},"position":{"x":260.0,"y":-245.0},"guid":"78d35437-1c59-45e4-8e04-55cdfc47a615","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":484.0,"y":-264.0},"guid":"227f6e76-99f0-4043-becd-fc1fbff338aa","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"defaultValues":{},"position":{"x":355.0,"y":-52.0},"guid":"b10dfc0e-6e54-4637-aaf8-2928e797d391","$version":"A","$type":"Unity.VisualScripting.This","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"116bd371-c5e2-4750-b56f-1d13ee83b2d0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"1ecf2bb6-5aaa-4518-ad05-a8428fcbc350","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"self","destinationUnit":{"$ref":"19"},"destinationKey":"%obj","guid":"9ad13019-fa36-479e-a59d-2e01402e2414","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 6090059116977184200, guid: 0b249119860d4044fa071a3005144cc4, type: 3}
+    - {fileID: 2833826250787700198, guid: 2e911662a11feba4a9f395e0ccb12ac8, type: 3}
